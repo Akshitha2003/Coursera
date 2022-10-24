@@ -1,0 +1,68 @@
+#header-nav{
+	background-color: darkgrey;
+	border-radius: 0;
+	border-width: 2px;
+	border-color: black;
+}
+
+*{
+	font-family: Berlin Sans FB;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: bold;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+	font-size: 1.2em;
+}
+#nav-list a:hover{
+	background-color: lightgray;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid white;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -40px;
+}
+
+
+#title{
+	font-size: 25px;
+	font-weight: 20px;
+}
+div.Items{
+	position: relative;
+	box-sizing: border-box;
+	padding: 0;
+  	background-color: #A9A9A9;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	margin-bottom: 15px;
+  	font-family: Helvetica;
+  	color: black;
+}
+div.Items h3{
+	font-weight: bold;
+}
+div.Items div{
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
